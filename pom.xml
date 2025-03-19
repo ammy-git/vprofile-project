@@ -12,18 +12,9 @@
 
     <!-- Distribution management for Maven repositories -->
     <distributionManagement>
-        <!-- Repository for releases -->
-        <repository>
-            <id>maven-releases</id>
-            <name>maven-releases</name>
-            <url>http://10.10.41.9:8081/repository/maven-releases/</url>
-        </repository>
-
-        <!-- Repository for snapshots -->
         <snapshotRepository>
-            <id>maven-snapshots</id>
-            <name>maven-snapshots</name>
-            <url>http://10.10.41.9:8081/repository/maven-snapshots/</url>
+            <id>nexus-snapshots</id>
+            <url>http://10.10.41.9:8081/repository/maven-snap/</url>
         </snapshotRepository>
     </distributionManagement>
 
