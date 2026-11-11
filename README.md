@@ -4,7 +4,7 @@
 - Maven 3 
 - MySQL 8
 
-# Technologies 
+# Technologies and Tools 
 - Spring MVC
 - Spring Security
 - Spring Data JPA
